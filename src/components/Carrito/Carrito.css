@@ -1,0 +1,123 @@
+/*h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+div {
+  margin-bottom: 20px;
+  background-color: aliceblue;
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}*/
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #28a745;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.carrito-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.carrito-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+.carrito-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.carrito-item-details {
+  flex: 1;
+}
+.carrito-item-details h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.carrito-item-details p {
+  margin: 5px 0;
+}
+.carrito-item-details .price {
+  font-weight: bold;
+  color: #333;
+}
+.carrito-item-details .quantity {
+  display: flex;
+  align-items: center;
+}
+.carrito-item-details .quantity input {
+  width: 50px;
+  margin: 0 10px;
+  text-align: center;
+}
+.carrito-item-details .quantity button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.carrito-item-details .quantity button:hover {
+  background-color: #0056b3;
+}
+.carrito-total {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.carrito-empty {
+  font-size: 20px;
+  color: #777;
+  margin-top: 50px;
+}
+.carrito-actions {
+  margin-top: 20px;
+}
+.carrito-actions button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.carrito-actions button:hover {
+  background-color: #218838;
+}
+.carrito-actions .clear-btn {
+  background-color: #dc3545;
+}
+.carrito-actions .clear-btn:hover {
+  background-color: #c82333;
+}

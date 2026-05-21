@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Excellent Smart Cat Adult Pollo, Carne",
+    "description": "Excellent Cat Adult Smart es un alimento completo y balanceado a base de proteínas de alta calidad provenientes del pollo y el arroz como principales ingredientes. Ayuda a mantener un pH adecuado en la orina, el cual contribuye a impedir la formación de cálculos y cristales. Los ácidos activos grasos Omega 3 y 6 aportan elasticidad a la piel y favorecen a un pelo sano y brillante. También las proteínas de pollo de alta digestibilidad garantizan el desarrollo de músculos fuertes y sanos.",
+    "price": 12500,
+    "image": "/img/gato/excellent-adulto.png"
+  },
+  {
+    "id": 2,
+    "name": "Proplan Gato Esterilizado Salmón",
+    "description": "Proplan Gato Esterilizado Salmón es un alimento completo y balanceado a base de proteínas de alta calidad provenientes del salmón y el arroz como principales ingredientes. Ayuda a mantener un pH adecuado en la orina, el cual contribuye a impedir la formación de cálculos y cristales. Los ácidos activos grasos Omega 3 y 6 aportan elasticidad a la piel y favorecen a un pelo sano y brillante. También las proteínas de salmón de alta digestibilidad garantizan el desarrollo de músculos fuertes y sanos.",
+    "price": 12500,
+    "image": "/img/gato/proplan-esterilizado-adulto-salmon.png"
+  },
+  {
+    "id": 3,
+    "name": "Excellent Smart Gato Castrado x 7,5 Kg",
+    "description": "Excellent Gato Castrado x 7,5 Kg es un alimento completo y balanceado a base de proteínas de alta calidad provenientes del pollo y el arroz como principales ingredientes. Ayuda a mantener un pH adecuado en la orina, el cual contribuye a impedir la formación de cálculos y cristales. Los ácidos activos grasos Omega 3 y 6 aportan elasticidad a la piel y favorecen a un pelo sano y brillante. También las proteínas de pollo de alta digestibilidad garantizan el desarrollo de músculos fuertes y sanos.",
+    "price": 12500,
+    "image": "/img/gato/excellent-esterilizado.png"
+  },
+  {
+    "id": 4,
+    "name": "Pro Plan Perro Adulto Raza Pequeña x 12+3 Kg",
+    "description": "Pro Plan Perro Adulto Raza Pequeña es un alimento completo y balanceado a base de proteínas de alta calidad provenientes del pollo y el arroz como principales ingredientes. Ayuda a mantener un pH adecuado en la orina, el cual contribuye a impedir la formación de cálculos y cristales. Los ácidos activos grasos Omega 3 y 6 aportan elasticidad a la piel y favorecen a un pelo sano y brillante. También las proteínas de pollo de alta digestibilidad garantizan el desarrollo de músculos fuertes y sanos.",
+    "price": 61467,
+    "image": "/img/perro/pro-plan-adulto-pequeño.png"
+  },
+  {
+    "id": 5,
+    "name": "Agility Cats Adulto X 10 Kg",
+    "description": " Agility Cats Adultos es un alimento balanceado completo, cocido por extrusión, resultado de una mezcla equilibrada de macronutrientes, micronutrientes y aditivos de altísima calidad que cubren los requerimientos alimenticios de los gatos adultos desde las 1 año hasta los 7 años, con actividad normal. Entre sus ingredientes se destacan: los ácidos grasos Omega 3 y 6 que colaboran en la mejora de la piel y el brillo del pelo; las fibras naturales, pulpa de remolacha + FOS; un balance correcto de ingredientes y minerales que contribuye con la salud del tracto urinario; y las proteínas de alta digestibilidad que ayudan a tener los músculos sanos y un buen funcionamiento metabólico.",
+    "price": 61467,
+    "image": "/img/gato/agility-adulto.png"
+  },
+  {
+    "id": 6,
+    "name": "Excellent Smart Perro Adulto Skin Care x 15 Kg",
+    "description": "Excellent Skin Care es un alimento balanceado para perros adultos, a partir de los 12 meses de edad, fabricado con proteínas de cordero las cuales son una alternativa ideal para proteger a tu perro de la piel sensible. Este alimento ayuda al crecimiento de un pelaje brillante y saludable y a conserva una piel sana gracias al aporte de Omega 6 y metionina.",
+    "price": 61467,
+    "image": "/img/perro/excellent-smart-adulto-skin-care.png"
+  },
+  {
+    "id": 7,
+    "name": "Fawna Gato Adulto X 7,5 Kg",
+    "description": "Fawna Patagonic Taste gato adulto por 7,5 kg es un alimento balanceado seco y completo para gatos adultos a partir de los 12 meses. Posee un 35% de proteínas provenientes del pollo con prebióticos y probióticos naturales los cuales fomentan una alimentación diaria más saludable para tu mascota. El nivel y la calidad del origen de los ingredientes y aminoácidos esenciales contribuyen al máximo desarrollo de su estructura corporal. Los aminoácidos esenciales digestibles más conocidas como DIAAS, reducen la cantidad de carbohidratos que posee el alimento y así poder brindar una alimentación más completa y saludable en su dieta diaria. Además, posee un suplemento de fibras naturales insolubles, que ayudan a la eliminación de las bolas de pelo del tracto digestivo naturalmente.",
+    "price": 67000,
+    "image": "/img/gato/fawna-adulto.png"
+  },
+  {
+    "id": 8,
+    "name": "Unik Gato Adulto X 7,5 + 1,5 Kg",
+    "description": "Alimento balanceado para gatos adultos a partir de un año de edad. Los nutrientes seleccionados colaboran a estabilizar la flora intestinal ayudando a optimizar la digestión y la absorción del alimento para una mejor salud digestiva. Ayuda a limitar la formación de bolas de pelo y a facilitar su eliminación, gracias a la asociación de fibras no fermentables y de pulpa de remolacha que permite estimular el tránsito intestinal y la eliminación del pelo ingerido.",
+    "price": 52000,
+    "image": "/img/gato/unik-gato-adulto.png"
+  },
+  {
+    "id": 9,
+    "name": "Pouch Cat Chow Gato Adulto Pollo X 85 Gr",
+    "description": "Cat Chow pouch es un alimento húmedo especialmente diseñado para gatos adultos, con trocitos con sabor a pollo en salsa que lo hacen único para tu mascota.",
+    "price": 1500,
+    "image": "/img/gato/pouch-cat-chow-esterilizados-pescado.png"
+  },
+  {
+    "id": 10,
+    "name": "Excellent Smart Perro Adulto Raza Mediana Grande x 20+2 Kg",
+    "description": " Excellent adult Dog Medium and Large breed Smart es un alimento balanceado recomendado para perros adultos de mordida mediana y grande. Entre sus ventajas se destacan que contiene: proteínas de alta digestibilidad, prebióticos para la correcta absorción de los nutrientes e incluye en su fórmula ácidos grasos Omega 3 y 6 que ayudan a mantener una piel y pelaje sanos. Su inclusión de ingredientes activos colabora con la formación de heces firmes.",
+    "price": 2000,
+    "image": "/img/perro/excellent-smart-adulto.png"
+  },
+  {
+    "id": 11,
+    "name": "Pouch Felix Sensaciones Pollo Higado En Salsa X 85Gr",
+    "description": "Purina Felix es un alimento húmedo especialmente desarrollado para gatos. Delicioso alimento húmedo completo y balanceado para gatos en desarrollo, compuesto por trocitos de pollo e higado en salsa, para deleitar hasta al paladar gatuno más exigente. La ración promedio es de 3 sobres de 85 g por cada 4 kg de peso de su gato adulto, repartido en 2 ó más comidas. Las necesidades individuales pueden variar y deben ser ajustadas para mantener el peso saludable de tu gato.",
+    "price": 2000,
+    "image": "/img/gato/pouch-felix-pescado.png"
+  },
+  {
+    "id": 12,
+    "name": "Pouch Pro Plan Gato Adulto Pollo x 85 Grs",
+    "description": "Es un delicioso alimento húmedo para gatos adultos con sabor a pollo que colabora al desarrollo de una estructura corporal plena y a un sistema inmune fortalecido. Sus ingredientes, sabor y consistencia resultan de una aceptación excepcional. Desarrollo de estructura corporal plena, salud dermatológica y sistema inmune fortalecido. Contiene proteína de pollo para mantenimiento de la masa muscular. Aporte óptimo vitaminas y minerales para piel y pelo sanos.",
+    "price": 3200,
+    "image": "/img/gato/pouch-proplan-adulto-pollo.png"
+  },
+  {
+    "id": 13,
+    "name": "Pouch Pro Plan Gato Adulto Salmon x 85 Grs",
+    "description": "Es un delicioso alimento húmedo para gatos adultos que contiene proteínas de salmón para el mantenimiento de la masa muscular y un aporte óptimo de vitaminas y minerales para que tu mascota tenga una piel y un pelo sano. Sus ingredientes, sabor y consistencia resultan de una aceptación excepcional. Desarrollo de estructura corporal plena, salud dermatológica y sistema inmune fortalecido. Contiene proteína de pollo para mantenimiento de la masa muscular. Aporte óptimo vitaminas y minerales para piel y pelo sanos.",
+    "price": 2700,
+    "image": "/img/gato/pouch-proplan-adulto-salmon.png"
+  },
+  {
+    "id": 14,
+    "name": "Pouch Pro Plan Gatito Pollo x 85 Grs",
+    "description": "Es un delicioso alimento húmedo para gatitos desde el destete hasta las 12 meses de edad, contiene proteína de pollo y arroz para una mejor digestión. Con un aporte óptimo de vitaminas y minerales para una estructura ósea sana y fuerte.",
+    "price": 2500,
+    "image": "/img/gato/pouch-proplan-gatito-pollo.png"
+  },
+  {
+    "id": 15,
+    "name": "Excellent Smart Gatitos Pollo, Carne y Arroz x 7,5 Kg",
+    "description": "Purina Excellent Kitten Smart ofrece una alimentación completa y balanceada para tu gato durante su primer año de vida. Su fórmula está basada en proteínas de alta digestibilidad, esenciales para un correcto desarrollo estructural de sus músculos. Además, aporta ácidos grasos Omega 3 y 6, vitaminas y minerales en su justa proporción para promover la salud de su piel, su pelo y sus huesos.",
+    "price": 2500,
+    "image": "/img/gato/excellent-gatitos-pollo.png"
+  },
+  {
+    "id": 16,
+    "name": "Proplan  Gatito Pollo x 7,5 Kg",
+    "description": "Proplan  Gatito Pollo es un alimento completo y balanceado a base de proteínas de alta calidad provenientes del pollo y el arroz como principales ingredientes. Ayuda a mantener un pH adecuado en la orina, el cual contribuye a impedir la formación de cálculos y cristales. Los ácidos activos grasos Omega 3 y 6 aportan elasticidad a la piel y favorecen a un pelo sano y brillante. También las proteínas de pollo de alta digestibilidad garantizan el desarrollo de músculos fuertes y sanos.",
+    "price": 2500,
+    "image": "/img/gato/pouch-proplan-gatito-pollo.png"
+  },
+  {
+    "id": 17,
+    "name": "Old Prince Proteinas Noveles Adulto Cordero y Arroz X 15+3 Kg",
+    "description": "Old Prince Proteinas Noveles Adulto Cordero y Arroz X 15+3 Kg es un alimento completo y balanceado a base de proteínas de alta calidad provenientes del cordero y el arroz como principales ingredientes. Ayuda a mantener un pH adecuado en la orina, el cual contribuye a impedir la formación de cálculos y cristales. Los ácidos activos grasos Omega 3 y 6 aportan elasticidad a la piel y favorecen a un pelo sano y brillante. También las proteínas de cordero de alta digestibilidad garantizan el desarrollo de músculos fuertes y sanos.",
+    "price": 74100,
+    "image": "/img/perro/old-prince-adulto-cordero.png"
+  },
+  {
+    "id": 18,
+    "name": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande X 20 + 3 Kg",
+    "description": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande X 20 + 3 Kg es un alimento completo y balanceado a base de proteínas de alta calidad provenientes del cordero y el arroz como principales ingredientes. Ayuda a mantener un pH adecuado en la orina, el cual contribuye a impedir la formación de cálculos y cristales. Los ácidos activos grasos Omega 3 y 6 aportan elasticidad a la piel y favorecen a un pelo sano y brillante. También las proteínas de cordero de alta digestibilidad garantizan el desarrollo de músculos fuertes y sanos.",
+    "price": 67000,
+    "image": "/img/perro/old-prince-equilibrium-adulto.png"
+  },
+  {
+    "id": 19,
+    "name": "Old Prince Premium Adulto X 20+3 Kg",
+    "description": "Alimento balanceado premium para perros adultos de todas las razas, fórmula equilibrada con proteínas de alta calidad, arroz y maíz que aportan energía sostenida. Diseñado para mantener masa muscular, digestión saludable y un pelaje brillante. Elegí una nutrición completa que cuida a tu perro en su etapa adulta.",
+    "price": 56000,
+    "image": "/img/perro/old-prince-premium-adulto.png"
+  },
+  {
+    "id": 20,
+    "name": "Pedigree Dentastix Razas Medianas X 180 Grs",
+    "description": "Pedigree® DENTASTIX™ es una barra de cuidado oral que usada diariamente ayuda a reducir la formación de sarro en los perros. Gracias a su forma exclusiva y combinación de ingredientes activos, es una efectiva solución para ayudar a mantener sus dientes limpios y encías saludables de forma fácil y divertida. ¡Existe un DENTASTIX™ para cada tamaño de raza! Conoce todas las presentaciones y la línea de Snacks que Pedigree® tiene para tu perro. Pedigree® DENTASTIX™ Adulto Razas Medianas es recomendado para perros adultos medianos de 10 a 25kg. Ante cualquier duda, consultá con tu veterinario y las guías de alimentación al reverso del empaque. Todos los productos de Pedigree® y DENTASTIX™ son respaldados por el centro de investigación Waltham®, una de las autoridades mundiales lideres en nutrición, cuidado y bienestar animal. La Asociación de Veterinarios Especializados en Animales de Compañía de Argentina avala el uso de Pedigree® DENTASTIX™ Por cada producto PEDIGREE® que compras, estás contribuyendo a que más perros en situación de calle puedan tener un hogar amoroso. Conocé Adopción PEDIGREE®, un programa de adopción de mascotas sin hogar.",
+    "price": 56000,
+    "image": "/img/perro/pedigree-dentastix.png"
+  },
+  {
+    "id": 21,
+    "name": "Pipeta Power Ultra Para Perros 21 A 40 Kg",
+    "description": "Power Ultra de 21 a 40 kg es una de las pipetas pulguicida, garrapaticida y repelente de mosquitos más poderosa del mercado, debido a su mayor volumen y concentración de principios activos.",
+    "price": 8500,
+    "image": "/img/perro/pipeta-power-ultra-perro-grande.png"
+  },
+  {
+    "id": 22,
+    "name": "Pipeta Power Ultra Para Perros 10 A 20 Kg",
+    "description": "Power Ultra de 10 a 20 kg es una de las pipetas pulguicida, garrapaticida y repelente de mosquitos más poderosa del mercado, debido a su mayor volumen y concentración de principios activos.",
+    "price": 8500,
+    "image": "/img/perro/pouch-pro-plan-adulto.png"
+  },
+  {
+    "id": 23,
+    "name": "Dog Chow Adulto Tdtm C/ Pavo X 100 Grs",
+    "description": "Dog Chow de Purina Adulto es un alimento húmedo completo para perros adultos de todas las razas. Preparados con ingredientes de alta calidad y sin adición de conservantes artificiales. Una receta con sabrosos trocitos de pavo ideal para su alimentación, para darle una vida sana a tu perro y vivir momentos especiales. Contribuye a la hidratación diaria. Calcio para dientes fuertes. Ingredientes: agua suficiente para proceso, carne de pavo, hígado de cerdo, gluten de trigo, carne de pollo, vísceras de cerdo, almidón de maíz modificado, harina de soya, concentrado proteico de soya, cloruro de potasio, fosfato tricálcico, sal, cloruro de colina, colores (caramelo y dióxido de titanio), sulfato de zinc, sulfato ferroso, suplemento de vitamina E, niacina, sulfato de cobre, sulfato de manganeso, mononitrato de tiamina, pantonetato de calcio, hidrocloruro de piridoxina, suplemento de vitamina B-12, suplemento de riboflavina, suplemento de vitamina A, yoduro de potasio, ácido fólico, suplemento de vitamina D-3, biotina, selenito de sodio.",
+    "price": 8500,
+    "image": "/img/perro/pouch-dog-chow-adulto-pavo.png"
+  }
+]
