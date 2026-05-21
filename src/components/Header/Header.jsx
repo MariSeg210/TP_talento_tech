@@ -11,7 +11,6 @@ export const Header = () => {
         </Link>
       </div>
       <p>Tienda de Mascotas</p>
-
       <Nav />
     </header>
   );
