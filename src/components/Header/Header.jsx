@@ -1,17 +1,21 @@
 import "./Header.css";
-import logo from "../../assets/logo.png";
+
+import logo from "../../assets/logo1.png";
 import { Nav } from "../Nav/Nav.jsx";
 import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <header>
-      <div className="header">
-        <Link>
-          <img src={logo} alt="logo" className="logo" />
-        </Link>
+      {/*Logo y nombre de la tienda*/}
+      <div className="nav-header">
+        <div className="header">
+          <Link>
+            <img src={logo} alt="logo" className="logo" />
+          </Link>
+        </div>
+        {/* Navegación */}
+        <Nav />
       </div>
-      <p>Tienda de Mascotas</p>
-      <Nav />
     </header>
   );
 };

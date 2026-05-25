@@ -7,13 +7,17 @@ export const ItemList = ({ products }) => {
   }
   return (
     <>
-      <div className="container">
-        {products.map((product) => (
-          <Link to={`/product/${product.id}`} key={product.id}>
-            <Item {...product} />
-          </Link>
-        ))}
-      </div>
+      <section className="container">
+        <h2 className="container-title">Productos disponibles</h2>
+
+        <div className="container-products">
+          {products.map((product) => (
+            <Link to={`/product/${product.id}`} key={product.id}>
+              <Item {...product} />
+            </Link>
+          ))}
+        </div>
+      </section>
     </>
   );
 };

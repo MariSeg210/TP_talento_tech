@@ -4,7 +4,7 @@ import { ItemListContainer } from "./components/ItemListContainer/ItemListContai
 import { Routes, Route } from "react-router-dom";
 import { Count } from "./components/Count/Count.jsx";
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer.jsx";
-
+import { Carrusel } from "./components/Carrusel/Carrusel.jsx";
 import "./App.css";
 function App() {
   return (
@@ -12,7 +12,16 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<ItemListContainer />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Carrusel />
+                <ItemListContainer />
+              </>
+            }
+          />
+          <Route path="/productos" element={<ItemListContainer />} />
           <Route path="/product/:id" element={<ItemDetailContainer />} />
           <Route path="/carrito" element={<h1>Carrito de compras</h1>} />
         </Routes>

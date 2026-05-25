@@ -3,14 +3,14 @@ article {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: rgb(242, 245, 245, 0.6);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease box-shadow 0.2s ease;
   width: 100%;
-  max-width: 800px;
-  gap: 25px;
+  max-width: 900px;
+  gap: 10px;
 }
 article:hover {
   transform: translate(-5px);
@@ -29,7 +29,7 @@ article h2 {
   color: #222222;
 }
 article p {
-  font-size: 1rem;
+  font-size: 1.8rem;
   color: #3d3d3d;
   line-height: 1.6;
   margin: 0;
