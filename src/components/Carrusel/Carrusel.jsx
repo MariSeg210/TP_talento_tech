@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import image1 from "../../assets/image1.png";
-import img2 from "../../assets/img2.png";
-import img3 from "../../assets/img3.png";
-import img4 from "../../assets/img4.png";
+import image1 from "../../../public/img/carrusel/image1.png";
+import img2 from "../../../public/img/carrusel/img2.png";
+import img3 from "../../../public/img/carrusel/img3.png";
+import img4 from "../../../public/img/carrusel/img4.png";
 import "./Carrusel.css";
 
 const images = [image1, img2, img3, img4];
