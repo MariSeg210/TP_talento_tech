@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import image1 from "../../../public/img/carrusel/image1.png";
-import img2 from "../../../public/img/carrusel/img2.png";
-import img3 from "../../../public/img/carrusel/img3.png";
-import img4 from "../../../public/img/carrusel/img4.png";
+
 import "./Carrusel.css";
 
-const images = [image1, img2, img3, img4];
+const images = [
+  "img/carrusel/img1.png",
+  "img/carrusel/img2.png",
+  "img/carrusel/img3.png",
+];
 
 export const Carrusel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
