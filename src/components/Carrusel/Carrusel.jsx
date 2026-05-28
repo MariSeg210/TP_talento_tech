@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import "./Carrusel.css";
 
 const images = [
-  "img/carrusel/img1.png",
-  "img/carrusel/img2.png",
-  "img/carrusel/img3.png",
+  "/img/carrusel/img1.png",
+  "/img/carrusel/img2.png",
+  "/img/carrusel/img3.png",
 ];
 
 export const Carrusel = () => {
@@ -18,7 +18,7 @@ export const Carrusel = () => {
     setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
   };
   return (
-    <section>
+    <section className="section-carrusel">
       <h1 className="carrusel-title ">
         Tenemos todo lo que tu mascota necesita
       </h1>
@@ -30,7 +30,7 @@ export const Carrusel = () => {
 
         <img
           src={images[currentIndex]}
-          alt="Slider"
+          alt={`Slide ${currentIndex + 1}`}
           className="carrusel-image"
         />
 

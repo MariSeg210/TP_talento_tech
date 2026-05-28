@@ -1,4 +1,4 @@
-.btn {
+/*.btn {
   background-color: #ff9f43;
   color: white;
   border: none;
@@ -56,4 +56,174 @@
 }
 .item-detail .item-info button:hover {
   background-color: #0056b3;
+}*/
+
+/* CARD PRINCIPAL */
+
+.detail-card {
+  width: 100%;
+
+  max-width: 1100px;
+
+  margin: auto;
+
+  background: white;
+
+  border-radius: 25px;
+
+  overflow: hidden;
+
+  display: flex;
+
+  gap: 2rem;
+
+  padding: 2rem;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  box-sizing: border-box;
+}
+
+/* IMAGEN */
+
+.detail-image-container {
+  flex: 1;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.detail-image {
+  width: 100%;
+
+  max-width: 450px;
+
+  object-fit: contain;
+
+  border-radius: 20px;
+}
+
+/* INFO */
+
+.detail-info {
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  gap: 1.2rem;
+}
+
+/* TITULO */
+
+.detail-title {
+  font-size: 2rem;
+
+  color: #062b4f;
+
+  margin: 0;
+}
+
+/* PRECIO */
+
+.detail-price {
+  font-size: 2rem;
+
+  font-weight: bold;
+
+  color: #12c7b7;
+
+  margin: 0;
+}
+
+/* DESCRIPCION */
+
+.detail-description {
+  color: #555;
+
+  line-height: 1.8;
+
+  font-size: 1rem;
+}
+
+/* BOTON */
+
+.btn-cart {
+  width: fit-content;
+
+  border: none;
+
+  background: #12c7b7;
+
+  color: white;
+
+  padding: 1rem 2rem;
+
+  border-radius: 12px;
+
+  font-size: 1rem;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.btn-cart:hover {
+  background: #0e9f96;
+
+  transform: translateY(-3px);
+}
+
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width: 900px) {
+  .detail-card {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .detail-info {
+    align-items: center;
+  }
+
+  .btn-cart {
+    width: 100%;
+  }
+}
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 480px) {
+  .detail-card {
+    padding: 1rem;
+
+    border-radius: 15px;
+  }
+
+  .detail-title {
+    font-size: 1.5rem;
+  }
+
+  .detail-price {
+    font-size: 1.5rem;
+  }
+
+  .detail-description {
+    font-size: 0.95rem;
+
+    line-height: 1.6;
+  }
 }

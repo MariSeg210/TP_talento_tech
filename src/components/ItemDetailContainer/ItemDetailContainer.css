@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
   font-size: 2rem;
   margin-bottom: 30px;
   text-align: center;
@@ -12,4 +12,105 @@ h1 {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .products-container {
+    margin-top: 0;
+  }
+}
+*/
+/* CONTENEDOR PRINCIPAL */
+
+.item-detail-container {
+  width: 100%;
+
+  min-height: 100vh;
+
+  padding: 2rem;
+
+  box-sizing: border-box;
+}
+
+/* TITULO */
+
+.item-detail-container h1 {
+  text-align: center;
+
+  color: #062b4f;
+
+  font-size: 2.5rem;
+
+  margin-bottom: 2rem;
+}
+
+/* PRODUCTO */
+
+.products-container {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  padding: 2rem 0;
+}
+
+/* LOADING */
+
+.loading {
+  width: 100%;
+
+  text-align: center;
+
+  padding: 4rem 1rem;
+
+  font-size: 1.3rem;
+
+  color: #12c7b7;
+}
+
+/* ERROR */
+
+.error {
+  width: 100%;
+
+  text-align: center;
+
+  padding: 4rem 1rem;
+
+  color: crimson;
+
+  font-size: 1.2rem;
+}
+
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .item-detail-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .item-detail-container h1 {
+    font-size: 2rem;
+
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+@media (max-width: 480px) {
+  .item-detail-container {
+    padding: 1rem;
+  }
+
+  .item-detail-container h1 {
+    font-size: 1.5rem;
+
+    line-height: 1.4;
+  }
 }

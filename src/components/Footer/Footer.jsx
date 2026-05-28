@@ -1,4 +1,4 @@
-import "./Footer.css";
+/*import "./Footer.css";
 import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
@@ -14,6 +14,61 @@ export const Footer = () => {
       <p>
         &copy; 2026 Tienda Personal. Todos los derechos reservados. Hecho por
         Marisa Segura
+      </p>
+    </footer>
+  );
+};*/
+import "./Footer.css";
+
+import { Link } from "react-router-dom";
+
+import { FaWhatsapp, FaInstagram, FaPaw } from "react-icons/fa";
+
+export const Footer = () => {
+  return (
+    <footer className="footer">
+      {/* LOGO */}
+      <div className="footer-logo">
+        <FaPaw />
+        <h2>PetShop</h2>
+      </div>
+
+      {/* LINKS */}
+      <nav className="footer-nav">
+        <ul className="lista">
+          <li>
+            <a
+              href="https://wa.me/5491111111111"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaWhatsapp />
+              Whatsapp
+            </a>
+          </li>
+
+          <li>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer">
+              <FaInstagram />
+              Instagram
+            </a>
+          </li>
+
+          <li>
+            <Link to="/">Inicio</Link>
+          </li>
+
+          <li>
+            <Link to="/productos">Productos</Link>
+          </li>
+        </ul>
+      </nav>
+
+      {/* COPYRIGHT */}
+      <p className="copyright">
+        &copy; 2026 PetShop — Todos los derechos reservados.
+        <br />
+        Hecho por Marisa Segura
       </p>
     </footer>
   );

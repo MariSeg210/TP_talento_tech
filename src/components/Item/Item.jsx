@@ -2,14 +2,21 @@ import "./Item.css";
 
 export const Item = ({ name, price, image, description, children }) => {
   return (
-    <article>
-      <h2>{name}</h2>
-      <img src={image} alt={`foto de ${name}`} />
-      <p>{`Precio: ${price}`}</p>
-      {description && <p className="description">{description} </p>}
-      {children}
-      {/*  Permite agregar contenido adicional dentro del componente
-      Item, como botones o enlaces. */}
+    <article className="item-card">
+      {/* IMAGEN */}
+      <div className="item-image-container">
+        <img src={image} alt={`foto de ${name}`} className="item-image" />
+      </div>
+
+      {/* INFO */}
+      <div className="item-info">
+        <h2 className="item-title">{name}</h2>
+
+        <p className="item-price">${price}</p>
+
+        {/* BOTONES */}
+        <div className="item-actions">{children}</div>
+      </div>
     </article>
   );
 };
