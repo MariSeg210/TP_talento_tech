@@ -52,7 +52,7 @@
 
   justify-content: center;
 
-  padding: 2rem 0;
+  align-items: center;
 }
 
 /* LOADING */
@@ -97,6 +97,9 @@
 
     margin-bottom: 1.5rem;
   }
+  .products-container {
+    flex-wrap: wrap;
+  }
 }
 
 /* ========================= */
@@ -106,11 +109,16 @@
 @media (max-width: 480px) {
   .item-detail-container {
     padding: 1rem;
+    width: 100%;
   }
 
   .item-detail-container h1 {
-    font-size: 1.5rem;
-
+    font-size: 1.3rem;
+    padding: auto;
     line-height: 1.4;
+  }
+  .products-container {
+    flex-wrap: wrap;
+    max-width: 300px;
   }
 }
