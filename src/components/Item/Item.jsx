@@ -11,7 +11,7 @@ export const Item = ({ name, price, image, description, children }) => {
       {/* INFO */}
       <div className="item-info">
         <h2 className="item-title">{name}</h2>
-
+        <p className="detail-description">{description}</p>
         <p className="item-price">${price}</p>
 
         {/* BOTONES */}

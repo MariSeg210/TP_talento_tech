@@ -3,9 +3,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBeer } from "react-icons/fa";
 import { RiShoppingCartLine } from "react-icons/ri";
+import { useCart } from "../../context/CartContex";
+
 //Exportación nombrada.
 
 export const Nav = () => {
+  const { getTotalItems } = useCart();
+  const totalItems = getTotalItems();
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -18,6 +23,7 @@ export const Nav = () => {
       {/* MENU */}
       <nav className={menuOpen ? "nav active" : "nav"}>
         <ul>
+          {/* Enlace a cada sección del sitio usando Link de react-router-dom */}
           <li>
             <Link to="/">Inicio</Link>
           </li>
@@ -41,6 +47,9 @@ export const Nav = () => {
           <li>
             <Link to="/carrito" className="carrito-link">
               Carrito
+              {totalItems > 0 && (
+                <span className="cart-count">{totalItems}</span>
+              )}
               <RiShoppingCartLine id="carrito" />
             </Link>
           </li>
