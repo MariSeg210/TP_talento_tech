@@ -1,147 +1,71 @@
-/* CARD */
-
-.item-card {
-  width: 100%;
-
-  max-width: 600px;
-
-  background: white;
-
-  border-radius: 20px;
-
-  overflow: hidden;
-
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-
-  transition: 0.3s ease;
-
+.card {
   display: flex;
-
+  flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 20rem;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09);
+  border: 1px solid #bbc1c7;
 }
-
-.item-card:hover {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.card:hover {
   transform: translateY(-8px);
-
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
-
-/* IMAGEN */
-
 .item-image-container {
   width: 100%;
-
-  height: 350px;
-
+  height: 20rem;
   overflow: hidden;
-  margin-top: 30px;
+  border-radius: 8px;
+  object-fit: cover;
 }
-
 .item-image {
   width: 100%;
   height: 100%;
-
-  object-fit: contain;
-
-  display: block;
-
-  transition: 0.4s ease;
+  object-fit: cover;
 }
-
-.item-card:hover .item-image {
+.item-image:hover {
   transform: scale(1.05);
 }
-
-/* INFO */
-
-.item-info {
-  padding: 1.2rem;
-
-  display: flex;
-
-  flex-direction: column;
-
-  gap: 0.8rem;
-}
-
-/* TITULO */
-
-.item-title {
-  margin: 0;
-
-  font-size: 1.4rem;
-
+.card .item-title {
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #062b4f;
+  text-align: center;
+  margin: 0.5rem 0;
 }
-
-/* PRECIO */
-
+.item-title {
+  width: 90%;
+}
 .item-price {
-  font-size: 1.3rem;
-
-  font-weight: bold;
-
-  color: #12c7b7;
-
-  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #2b6cb0;
+  margin: 0.5rem 0;
 }
-
-/* DESCRIPCION */
-.detail-description {
+.card .detail-description {
+  font-size: 1.2rem;
+  color: #062b4f;
+  line-height: 1.5;
+  margin: 10px 0 20px 0;
+  text-align: center;
   display: none;
 }
-/* BOTONES */
-
-.item-actions {
-  margin-top: auto;
-
+.card .item-actions {
   display: flex;
-
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5rem;
 }
-
-/* ========================= */
-/* TABLET */
-/* ========================= */
-
-@media (max-width: 768px) {
-  .item-card {
-    max-width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .item-image-container {
-    height: 220px;
-  }
-
-  .item-title {
-    font-size: 1.2rem;
-  }
-
-  .item-price {
-    font-size: 1.1rem;
-  }
-}
-
-/* ========================= */
-/* MOBILE */
-/* ========================= */
-
-@media (max-width: 480px) {
-  .item-card {
-    border-radius: 15px;
-  }
-
-  .item-image-container {
-    height: 200px;
-  }
-
-  .item-info {
-    padding: 1rem;
-  }
-
-  .item-title {
-    font-size: 1.1rem;
-  }
+.card .item-actions button {
+  margin: 0 0.5rem;
 }

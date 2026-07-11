@@ -65,6 +65,7 @@ export const CartProvider = ({ children }) => {
   };
   // Valores que se proporcionarán a través del contexto
   const values = {
+    cart,
     clearCart,
     removeItem,
     addItem,

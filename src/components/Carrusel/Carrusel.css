@@ -1,161 +1,42 @@
-/*section {
-  width: 100%;
-  padding: 10px 0 0 0;
-  margin-bottom: 0;
-}
-.carrusel-contenedor {
-  position: relative;
-  width: 100%;
-  max-width: 1400px;
-  height: 70vh;
-  margin: 70px auto 0 auto;
-  overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-}
-.carrusel-title {
-  position: absolute;
-  top: 170px;
-  left: 50%;
-  transform: translate(-50%);
-  color: #062b4f;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 1.9rem;
-  font-weight: 600;
-  text-align: center;
-  pointer-events: none;
-  margin-bottom: 60px;
-  width: 80%;
-  max-width: 900px;
-}
-.carrusel-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: opacity 0.5s ease-in-out;
-  top: 0;
-}
-.btn-carrusel {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%);
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #333;
-  border: none;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  font-weight: bold;
-  cursor: pointer;
-  transform: all 0.2s ease;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.btn-carrusel:hover {
-  transform: translate(-50%) scale(1.1);
-  color: #000;
-  background-color: #ffffff;
-}
-button:first-of-type {
-  left: 20px;
-}
-button:last-of-type {
-  right: 20px;
-}
-@media (min-width: 769px) and (max-width: 998px) {
-  section {
-    width: 80%;
-    height: 50vh;
-    margin: auto;
-  }
-  .carrousel-contenedor {
-    height: auto;
-    width: 70%;
-  }
-  .carrusel-image {
-    object-fit: contain;
-  }
-}
-@media (max-width: 768px) {
-  .carrusel-contenedor {
-    width: 80%;
-    height: auto;
-    margin-bottom: 0;
-  }
-  .carrusel-title {
-    font-size: 1.1rem;
-    width: 98%;
-    top: 250px;
-  }
-  .carrusel-image {
-    object-fit: contain;
-  }
-
-  button {
-    width: 35px;
-    height: 35px;
-    font-size: 1.1rem;
-  }
-}*7.carrusel-contenedor {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-
-  padding: 1rem;
-  box-sizing: border-box;
-}
-
-/* TITULO */
 /* CONTENEDOR GENERAL */
-
+.section-carrusel {
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 100%;
+  height: 80vh;
+}
 .carrusel-contenedor {
   position: relative;
-
-  width: 100%;
-  max-width: 1200px;
-
+  width: 80%;
   margin: 0 auto;
-  .section-carrusel {
-    padding: 0;
-    margin: 0;
-  }
-  overflow: hidden;
-
-  border-radius: 20px;
+  height: 70vh;
 }
-
 /* TITULO */
 
 .carrusel-title {
   text-align: center;
 
-  font-size: 2.2rem;
+  font-size: 2.3em;
   font-weight: 700;
 
   color: #062b4f;
 
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0;
+  padding-top: 1rem;
 }
 
 /* IMAGEN */
 
 .carrusel-image {
   width: 100%;
-  display: block;
-
-  object-fit: cover;
 
   border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  display: block;
+  object-fit: cover;
 }
 
 /* BOTONES */
@@ -168,17 +49,17 @@ button:last-of-type {
 
   z-index: 10;
 
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
 
   border: none;
-  border-radius: 50%;
+  border-radius: 50vh;
 
   background: rgba(18, 199, 183, 0.9);
 
   color: white;
 
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 
   cursor: pointer;
@@ -202,12 +83,27 @@ button:last-of-type {
   background: #0e9f96;
   transform: translateY(-50%) scale(1.1);
 }
+/* ========================= */
+/* DESKTOP */
+/* ========================= */
+@media (769px <= width <= 1024px) {
+  .carrusel-title {
+    font-size: 1.8rem;
 
+    padding: 0 1rem;
+  }
+
+  .btn-carrusel {
+    width: 45px;
+    height: 45px;
+    top: 20vh;
+    font-size: 1.2rem;
+  }
+}
 /* ========================= */
 /* TABLET */
 /* ========================= */
-
-@media (max-width: 768px) {
+@media (481px <= width <= 768px) {
   .carrusel-title {
     font-size: 1.5rem;
 
@@ -217,7 +113,7 @@ button:last-of-type {
   .btn-carrusel {
     width: 38px;
     height: 38px;
-
+    top: 20vh;
     font-size: 1rem;
   }
 }
@@ -228,7 +124,7 @@ button:last-of-type {
 
 @media (max-width: 480px) {
   .carrusel-title {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     line-height: 1.4;
 
     margin-bottom: 0.7rem;
@@ -245,7 +141,7 @@ button:last-of-type {
   .btn-carrusel {
     width: 34px;
     height: 34px;
-
+    top: 20%;
     font-size: 0.9rem;
   }
 

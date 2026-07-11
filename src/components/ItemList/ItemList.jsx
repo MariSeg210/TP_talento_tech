@@ -8,8 +8,6 @@ export const ItemList = ({ products }) => {
   return (
     <>
       <section className="container">
-        <h2 className="container-title">Productos disponibles</h2>
-
         <div className="container-products">
           {products.map((product) => (
             <Link to={`/product/${product.id}`} key={product.id}>

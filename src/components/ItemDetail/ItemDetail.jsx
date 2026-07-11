@@ -11,7 +11,7 @@ export const ItemDetail = ({ item, description }) => {
 };*/
 import "./ItemDetail.css";
 import { Item } from "../Item/Item";
-import { useCart } from "../../context/CartContex";
+import { useCart } from "../../context/CartContext";
 import "../Item/Item.css";
 export const ItemDetail = ({ item }) => {
   const { addItem } = useCart();

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBeer } from "react-icons/fa";
 import { RiShoppingCartLine } from "react-icons/ri";
-import { useCart } from "../../context/CartContex";
+import { useCart } from "../../context/CartContext";
 
 //Exportación nombrada.
 
@@ -27,22 +27,22 @@ export const Nav = () => {
           <li>
             <Link to="/">Inicio</Link>
           </li>
-
+          {/* Productos sin el carrusel*/}
           <li>
             <Link to="/productos">Productos</Link>
           </li>
-
+          {/* Enlaces a categorías específicas */}
           <li>
-            <Link to="/perro">Perro</Link>
+            <Link to={"/category/perro"}>Perro</Link>
           </li>
 
           <li>
-            <Link to="/gato">Gato</Link>
+            <Link to={"/category/gato"}>Gato</Link>
           </li>
 
-          <li>
+          {/*  <li>
             <Link to="/contacto">Contacto</Link>
-          </li>
+          </li> */}
 
           <li>
             <Link to="/carrito" className="carrito-link">

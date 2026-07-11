@@ -1,9 +1,0 @@
-.item-list-container {
-  display: grid;
-
-  gap: 30px;
-  padding: 40px 20px;
-  max-width: 1400px;
-  margin: 0 auto;
-  cursor: pointer;
-}
