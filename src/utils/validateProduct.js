@@ -38,10 +38,10 @@ export const validateProduct = (product) => {
     errors.file = "La imagen del producto es requerida.";
   } else {
     //valido formato
-    const urlPattern = ["image/jpge", "image/png", "image/jpg", "image/webp"];
+    const urlPattern = ["image/jpeg", "image/png", "image/webp"];
     if (!urlPattern.includes(product.file.type)) {
       errors.file =
-        "La imagen del producto debe ser un archivo del tipo: jpge, png, jpg o webp.";
+        "La imagen del producto debe ser un archivo del tipo: png, jpg o webp.";
     }
     //valido tamaño maximo 5mb
     const maxSizeInBytes = 5 * 1024 * 1024;
