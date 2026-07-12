@@ -1,33 +1,43 @@
 /* NAV GENERAL */
-
-.nav ul {
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  z-index: 1000;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.nav-lista {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  gap: 2rem;
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 1.5rem;
 }
-
+.nav-item {
+  position: relative;
+}
 /* LINKS */
 
-.nav a {
+.nav-enlace {
   text-decoration: none;
   color: #062b4f;
-  font-weight: 600;
+
   transition: 0.3s ease;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  padding: 0.5rem 1rem;
 }
 
-.nav a:hover {
+.nav-enlace:hover {
   color: #12c7b7;
 }
 
 /* CARRITO */
 
-.carrito-link {
+.nav-enlace--carrito {
   display: flex;
 
   align-items: center;
@@ -35,33 +45,37 @@
   gap: 0.4rem;
 }
 
-#carrito {
-  font-size: 1.9rem;
+.icono-carrito {
+  font-size: 1.7rem;
 }
-
+.contador-carrito {
+  background-color: #12c7b7;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  display: grid;
+  place-items: center;
+  margin-left: 0.3rem;
+}
 /* BOTON HAMBURGUESA */
 
 .menu-btn {
   display: none;
-
   border: none;
-
   background: #12c7b7;
-
   color: white;
-
-  width: 42px;
-  height: 42px;
-
-  border-radius: 10px;
-
-  font-size: 1.3rem;
-
+  width: 60px;
+  height: 200%;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 
 /* ========================= */
-/* TABLET Y MOBILE */
+/* MOBILE */
 /* ========================= */
 
 @media (max-width: 768px) {
@@ -71,32 +85,41 @@
 
   .nav {
     position: absolute;
-
-    top: 80px;
+    top: 100%;
     left: 0;
-
     width: 100%;
+    background: #12c7b7;
+    transform: translateX(-100%);
 
-    background: white;
-
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-
-    display: none;
+    transition: transform 0.3s ease;
+  }
+  .nav-enlace {
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+  }
+  .nav--abierto {
+    transform: translateX(0); /*se desliza al abrir*/
   }
 
-  .nav.active {
-    display: block;
-  }
-
-  .nav ul {
+  .nav-lista {
     flex-direction: column;
+    align-items: flex-start;
 
-    gap: 0.6rem;
+    gap: 1rem;
 
-    padding: 2rem 0;
+    padding: 1rem 1.5rem;
   }
 
-  .nav a {
-    font-size: 1.2rem;
+  .nav-item {
+    width: 100%;
+  }
+  .nav-enlace {
+    display: block;
+    padding: 0.5rem 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-lista {
+    gap: 1rem;
   }
 }
