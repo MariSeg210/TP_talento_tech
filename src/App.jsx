@@ -58,8 +58,11 @@ function App() {
             {/* <Route path="*" element={<h2>Página no encontrada</h2>} />*/}
 
             <Route path="products/new" element={<ProductFormContainer />} />
-            <Route path="products/success/:id" element={<ProductSuccess />} />
           </Route>
+          <Route
+            path="admin/products/success/:id"
+            element={<ProductSuccess />}
+          />
         </Routes>
       </main>
       {/*<Footer />*/}

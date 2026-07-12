@@ -85,7 +85,7 @@ export const ProductFormContainer = () => {
       //vaciar
       setProduct({ name: "", price: "", category: "", description: "" }); //reseteo
       setFile(null);
-      // navigate(`/success/${id}`, { replace: true });
+      navigate(`/admin/products/success/${id}`, { replace: true });
     } catch (error) {
       console.error("Error al crear el producto:", error);
       setErrors({ general: error.message });
